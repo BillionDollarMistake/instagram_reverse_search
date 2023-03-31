@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.18.4) # cmake --version
 project (instagram_reverse_search
 	VERSION 1.0.0
 	DESCRIPTION ""
-	HOMEPAGE_URL ""
+	HOMEPAGE_URL "github.com/matteomanuelli"
 	LANGUAGES CXX
 )
 
@@ -14,3 +14,6 @@ target_include_directories(${PROJECT_NAME}
 	PUBLIC
 		${PROJECT_SOURCE_DIR}/include
 )
+
+find_package(OpenCV REQUIRED)
+target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBS})

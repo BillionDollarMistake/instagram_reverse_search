@@ -1,7 +1,7 @@
 #include "main.hpp"
 
-int main()
+int main(int argc, char **argv)
 {
-	printf("%d\n", TRUE);
+	cv::Mat mat;
 	return 0;
 }
