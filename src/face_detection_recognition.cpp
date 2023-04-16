@@ -1,6 +1,6 @@
-#ifndef __MAIN_HPP__
-#define __MAIN_HPP__
-
 #include "face_detection_recognition/face_detection_recognition.hpp"
 
-#endif
+void test_lib()
+{
+        cv::Mat img;
+}
